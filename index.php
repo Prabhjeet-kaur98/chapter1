@@ -1,5 +1,5 @@
 <?php 
-$best_sellers  = ['Choclate', 'Mints', 'Fudge',
+$best_sellers  = ['Choclate', 'Mints', 'Fudge', 'Licorice',
 'bubble gum', 'Toffee', 'Jelly beans',];
 ?>
 <!DOCTYPE html>
@@ -14,5 +14,9 @@ $best_sellers  = ['Choclate', 'Mints', 'Fudge',
     <li><?php echo $best_sellers[0]; ?></li>
     <li><?php echo $best_sellers[1]; ?></li>
     <li><?php echo $best_sellers[2]; ?></li>
+    <li><?php echo $best_sellers[3]; ?></li>
+    <li><?php echo $best_sellers[4]; ?></li>
+    <li><?php echo $best_sellers[5]; ?></li>
+
   </body>
 </html>
