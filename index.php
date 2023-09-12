@@ -1,13 +1,9 @@
 <?php 
-$nutrition = [
-  'fat' => 38,
-  'sugar' => 51,
-  'salt' => 0.25
-
-];
-$nutrition['fat'] = 36;
-$nutrition['fibre'] = 2.1;
-$nutrition['protein'] = 7.3;
+$offers = [
+  ['name' => 'Toffee', 'price' => 5, 'stock' => 120,],
+  ['name' => 'Mints', 'price' => 3, 'stock' => 66,],
+  ['name' => 'FUDGE', 'price' => 4, 'stock' => 97,],
+   ];
 ?>
 <!DOCTYPE html>
 <html>
@@ -16,15 +12,12 @@ $nutrition['protein'] = 7.3;
   </head>
   <body>
     <h1>The Candy Store</h1>
-    <h2>Nutrition (per 100g) </h2>
-    <p><?php echo $nutrition['fat']; ?></p>
-    <p><?php echo $nutrition['sugar']; ?></p>
-    <p><?php echo $nutrition['salt']; ?></p>
-    <p><?php echo $nutrition['fibre']; ?></p>
-    <p><?php echo $nutrition['protein']; ?></p>
-
-  
-     
-
-  </body>
+    <h2>offers</h2>
+    <p><?php echo $offers[0]['name']; ?> -
+    $<p><?php echo $offers[0]['price']; ?> </p>
+    <p><?php echo $offers[1]['name']; ?> -
+    $<p><?php echo $offers[1]['price']; ?> </p>
+    <?php echo $offers[2]['name']; ?> -
+    $<p><?php echo $offers[2]['price']; ?> </p>
+</body>
 </html>
