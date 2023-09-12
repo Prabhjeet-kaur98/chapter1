@@ -1,22 +1,27 @@
 <?php 
-$best_sellers  = ['Choclate', 'Mints', 'Fudge', 'Licorice',
-'bubble gum', 'Toffee', 'Jelly beans',];
+$nutrition = [
+  'fat' => 38,
+  'sugar' => 51,
+  'salt' => 0.25
+
+];
+$nutrition['fat'] = 36;
+$nutrition['fibre'] = 2.1;
 ?>
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Variables</title>
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
     <h1>The Candy Store</h1>
-    <h2>Best sellers</h2>
-    <li><?php echo $best_sellers[0]; ?></li>
-    <li><?php echo $best_sellers[1]; ?></li>
-    <li><?php echo $best_sellers[2]; ?></li>
-    <li><?php echo $best_sellers[3]; ?></li>
-    <li><?php echo $best_sellers[4]; ?></li>
-    <li><?php echo $best_sellers[5]; ?></li>
+    <h2>Nutrition (per 100g) </h2>
+    <p><?php echo $nutrition['fat']; ?></p>
+    <p><?php echo $nutrition['sugar']; ?></p>
+    <p><?php echo $nutrition['salt']; ?></p>
+    <p><?php echo $nutrition['fibre']; ?></p>
+  
+     
 
   </body>
 </html>
