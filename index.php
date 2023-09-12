@@ -1,4 +1,5 @@
 <?php 
+$name = 'guest'
 $name  = 'prabh';
 $price = 2;
 ?>
