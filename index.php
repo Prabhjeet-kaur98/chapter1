@@ -1,7 +1,7 @@
 <?php
 $username = 'prabh';                                   // Variable to hold username
 
-$greeting = 'Hello, ' . $username . '.';             // Greeting is 'Hello' + username
+$greeting = 'Hi, ' . $username . '.';             // Greeting is 'Hello' + username
 
 $offer = [                                           // Create array to hold offer
     'item'     => 'Chocolate',                       // Item on offer
